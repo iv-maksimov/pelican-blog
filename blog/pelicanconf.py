@@ -31,12 +31,12 @@ DEFAULT_PAGINATION = 5
 
 # Specify theme
 
-THEME = "c:\\site\\theme\\"
+THEME = r"c:\site\pelican-blog\theme"
 BOOTSTRAP_THEME = "material"
 
 STATIC_PATHS = ['images', 'pages',]
-PLUGIN_PATHS = ['c:\\site\\pelican-plugins',]
-PLUGINS = []
+PLUGIN_PATHS = [r'c:\site\pelican-blog\plugins',]
+PLUGINS = ['liquid_tags.notebook', 'liquid_tags.img']
 
 GOOGLE_ANALYTICS = 'UA-55193702-1'
 
