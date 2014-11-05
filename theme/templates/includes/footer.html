@@ -1,0 +1,22 @@
+<footer class="footer"> 
+    <div class="container">
+	<div class="row text-center">&#8194;</div>
+        <div class="row text-center">
+		{% if articles %}
+		    {% set copy_date = articles[0].date.strftime('%Y') %}
+		{% else %}
+		    {% set copy_date = '' %}
+		{% endif %}
+		<div class="lead">&copy; {{ copy_date }} {{ AUTHOR }}</div>
+         <!--<div class="col-xs-2"><p class="pull-right"></i> <a href="#" class="btn btn-info">Back to top</a></p></div>-->
+      </div>
+      <div class="row text-center">
+	<a target="_blank" href="http://vk.com/id18708415"><img class="social-icon" src="../images/1413502319_vkontakte.png">
+        </a>
+	<h>&#8194;&#8194;&#8194;</h>
+	<a target="_blank" href="https://github.com/iv-maksimov"><img class="social-icon" src="../images/1413502277_github.png">
+        </a>
+
+      </div>
+   </div>
+</footer>

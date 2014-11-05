@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>foo</title><link href="/" rel="alternate"></link><link href="/feeds%5Ckate-muz.atom.xml" rel="self"></link><id>/</id><updated>2010-12-03T10:20:00+03:00</updated><entry><title>Data</title><link href="/mullang.html" rel="alternate"></link><updated>2010-12-03T10:20:00+03:00</updated><author><name>Kate Muz</name></author><id>tag:,2010-12-03:mullang.html</id><summary type="html">&lt;h2&gt;Matplotlib!!!dv&lt;/h2&gt;
+&lt;p&gt;dfvdss dsasd df 
+ 1. 1-й элемент нумерованного списка
+ 2. 2-й элемент нумерованного списка
+ 3. туда сюда&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;элемент маркированного списка&lt;/li&gt;
+&lt;li&gt;элемент маркированного списка&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;sdfv
+&lt;table class="table table-striped table-hover "&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;#&lt;/th&gt;
+            &lt;th&gt;Column heading&lt;/th&gt;
+            &lt;th&gt;Column heading&lt;/th&gt;
+            &lt;th&gt;Column heading&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;1&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="info"&gt;
+            &lt;td&gt;3&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="success"&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="danger"&gt;
+            &lt;td&gt;5&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="warning"&gt;
+            &lt;td&gt;6&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="active"&gt;
+            &lt;td&gt;7&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;</summary><category term="#matplotlib"></category><category term="#overachiever"></category></entry></feed>

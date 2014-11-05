@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>foo</title><link>/</link><description></description><atom:link href="/feeds%5Ckate-muz.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 03 Dec 2010 10:20:00 +0300</lastBuildDate><item><title>Data</title><link>/mullang.html</link><description>&lt;h2&gt;Matplotlib!!!dv&lt;/h2&gt;
+&lt;p&gt;dfvdss dsasd df 
+ 1. 1-й элемент нумерованного списка
+ 2. 2-й элемент нумерованного списка
+ 3. туда сюда&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;элемент маркированного списка&lt;/li&gt;
+&lt;li&gt;элемент маркированного списка&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;sdfv
+&lt;table class="table table-striped table-hover "&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;#&lt;/th&gt;
+            &lt;th&gt;Column heading&lt;/th&gt;
+            &lt;th&gt;Column heading&lt;/th&gt;
+            &lt;th&gt;Column heading&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;1&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="info"&gt;
+            &lt;td&gt;3&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="success"&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="danger"&gt;
+            &lt;td&gt;5&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="warning"&gt;
+            &lt;td&gt;6&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="active"&gt;
+            &lt;td&gt;7&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+            &lt;td&gt;Column content&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kate Muz</dc:creator><pubDate>Fri, 03 Dec 2010 10:20:00 +0300</pubDate><guid>tag:,2010-12-03:mullang.html</guid><category>#matplotlib</category><category>#overachiever</category></item></channel></rss>

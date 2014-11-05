@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}"
+      {% if USE_OPEN_GRAPH %}
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml"{% endif %}>
+<head>
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    {% if 'liquid_tags.notebook' in PLUGINS %}
+        {% include 'includes/liquid_tags_nb_header.html' %}
+    {% endif %}
+
+    {# Favicons are a touchy subject. For reasoning for the following code, see: http://stackoverflow.com/a/23851464/872397 #}
+    {% if FAVICON %}
+    <link href="{{ SITEURL }}/{{ FAVICON }}" rel="icon">
+    {% endif %}
+    {% if FAVICON_IE %}
+    <!--[if IE]><link rel="shortcut icon" href="{{ SITEURL }}/{{ FAVICON_IE }}"><![endif]-->
+    {% endif %}
+    {% if TOUCHICON %}
+    <link rel="apple-touch-icon" href="{{ SITEURL }}/{{ TOUCHICON }}">
+    {% endif %}
+
+    {% block canonical_rel %}{% endblock %}
+
+    {% block meta %}
+        <meta name="author" content="{{ AUTHOR }}" />
+    {% endblock %}
+
+    {# Open Graph tags #}
+    {% if USE_OPEN_GRAPH is not defined %}
+        {% set USE_OPEN_GRAPH = True %}
+    {% endif %}
+    {% if USE_OPEN_GRAPH %}
+    {% block opengraph %}
+    <!-- Open Graph tags -->
+        {% if OPEN_GRAPH_FB_APP_ID %}
+            <meta property="fb:app_id" content="{{ OPEN_GRAPH_FB_APP_ID }}"/>
+        {% endif %}
+        <meta property="og:site_name" content="{{ SITENAME }}" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="{{ SITENAME }}"/>
+        <meta property="og:url" content="{{ SITEURL }}"/>
+        <meta property="og:description" content="{{ SITENAME }}"/>
+        {% if OPEN_GRAPH_IMAGE %}
+            <meta property="og:image"
+                  content="{{ SITEURL }}/{{ OPEN_GRAPH_IMAGE }}"/>
+        {% endif %}
+    {% endblock %}
+    {% endif %}
+
+    {# Twitter Cards tags #}
+    {% include 'includes/twitter_cards.html' %}
+
+    <!-- Bootstrap -->
+    {% if BOOTSTRAP_THEME %}
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.{{ BOOTSTRAP_THEME }}.min.css" type="text/css"/>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ SITEURL }}/theme/css/ripples.min.css" rel="stylesheet">
+	<link href="{{ SITEURL }}/theme/css/material-wfont.min.css" rel="stylesheet">
+    {% else %}
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css"/>
+    {% endif %}
+    <link href="{{ SITEURL }}/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('native') }}.css" rel="stylesheet">
+    {% if DOCUTIL_CSS %}
+        <link href="{{ SITEURL }}/theme/css/html4css1.css" rel="stylesheet">
+    {% endif %}
+    {% if TYPOGRIFY %}
+        <link href="{{ SITEURL }}/theme/css/typogrify.css" rel="stylesheet">
+    {% endif %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
+    {% if CUSTOM_CSS %}
+        <link href="{{ SITEURL }}/{{ CUSTOM_CSS }}" rel="stylesheet">
+    {% endif %}
+
+    {% if FEED_ALL_ATOM %}
+        <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
+              title="{{ SITENAME }} ATOM Feed"/>
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+        <link href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate"
+              title="{{ SITENAME }} RSS Feed"/>
+    {% endif %}
+
+</head>
+
+
+<body>
+<div id="wrapper">
+{% include 'includes/navbar.html' %}
+
+
+<div class="container">
+
+	<div class="row">
+	<div class="col-sm-12">
+
+
+	<div class="jumbotron">
+
+		<h1 class="lead text-center">Contact</h1>
+		<img class="img-responsive img-full" src="/images/contact.jpg" alt="Smiley face">
+
+		<div class="row">
+
+		   <div class="col-sm-6">
+                        <h2 class="text-center">Ivan Maksimov</h2>
+				
+
+<p>I am a twenty four years old data analyst from Moscow.</p>
+<p>I graduated from the Bauman Moscow State Technical University <a href="http://www.bmstu.ru/">(BMSTU)</a> on specialty in nuclear physics. 
+I am currently studying for a Ph.D. in diagnostic of Nuclear Power Plants at the BMSTU.</p>
+
+
+                    </div>
+
+
+
+               <div class="col-sm-6">
+
+                            <h2 class="text-center">Impressum</h2>
+
+
+		
+<div class="list-group">
+    <div class="list-group-item">
+        <div class="row-action-primary">
+            <i class="mdi-communication-email"></i>
+        </div>
+        <div class="row-content">
+
+            <h4 class="list-group-item-heading">email</h4>
+            <p class="list-group-item-text"><a href="mailto:iv_maksimov@mail.ru">iv_maksimov@mail.ru</a></p>
+        </div>
+    </div>
+    <div class="list-group-separator"></div>
+    <div class="list-group-item">
+        <div class="row-action-primary">
+            <i class="mdi-communication-location-on"></i>
+        </div>
+        <div class="row-content">            
+            <h4 class="list-group-item-heading">location</h4>
+            <p class="list-group-item-text">Moscow, Russia</p>
+        </div>
+    </div>
+    <div class="list-group-separator"></div>
+</div>
+
+
+		</div>
+
+
+
+
+
+
+
+	       </div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+{% include 'includes/footer.html' %}
+
+
+<script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="{{ SITEURL }}/theme/js/respond.min.js"></script>
+
+{% include 'includes/github-js.html' %}
+{% include 'includes/ga.html' %}
+{% include 'includes/piwik.html' %}
+
+
+<script src="{{ SITEURL }}/theme/js/ripples.min.js"></script>
+<script src="{{ SITEURL }}/theme/js/material.min.js"></script>
+
+
+
+</body>
+</html>
